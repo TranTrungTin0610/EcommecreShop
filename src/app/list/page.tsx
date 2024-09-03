@@ -15,9 +15,9 @@ const ListPage = () => {
           </div>
         </div>
         {/* FILTER */} 
-        <Filter />
-        {/*PRODUCTS */}
-    </div>
+        <Filter /> 
+        {/*PRODUCTS 1:32:58 */} 
+    </div>  
   )
 }
 
