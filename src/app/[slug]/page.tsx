@@ -2,10 +2,10 @@ import Add from '@/components/Add'
 import CustomizeProducts from '@/components/CustomizeProducts'
 import ProductImage from '@/components/ProductImage'
 import React from 'react'
-// 1h48
+// 1h48 
 const SinglePage = () => {
   return (
-    <div className='px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 relative flex flex-col lg:flex-row rap-16'> 
+    <div className='px-4 md:px-8 lg:px-16 xl:32 2xl:px-64 relative flex flex-col lg:flex-row gap-16'> 
         {/* IMAGE */}
         <div className='w-full lg:w-1/2 lg:sticky top-20 h-max'> 
           <ProductImage />  
@@ -22,7 +22,23 @@ const SinglePage = () => {
           <div className='h-[2px] bg-gray-100'/>
           <CustomizeProducts />
           <Add />
-        </div>
+          <div className='h-[2px] bg-gray-100'/>
+            <div className='text-sm'>
+              <h4 className='font-medium mb-4'>Title</h4>
+              <p>Profile:  Developer web fullstack, Trader Forex, Content Creator</p>
+            </div>
+            <div className='text-sm'>
+              <h4 className='font-medium mb-4'>Title</h4>
+              <p>Profile:  Developer web fullstack, Trader Forex, Content Creator</p>
+            </div>
+            <div className='text-sm'>
+              <h4 className='font-medium mb-4'>Title</h4>
+              <p>Profile:  Developer web fullstack, Trader Forex, Content Creator</p>
+            </div>
+          </div>
+          
+          
+        
     </div>
   )
 }
